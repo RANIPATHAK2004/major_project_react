@@ -20,6 +20,9 @@ const Homepage = () => {
                 <li>Resource Management</li>
                 <li>E-learning Content</li>
                 <li>Connectivity Tools</li>
+                <li>Connectivity Tools</li>
+                <li>Connectivity Tools</li>
+                <li>Connectivity Tools</li>
                
               </ul>
             </li>
