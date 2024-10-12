@@ -8,7 +8,7 @@ const Homepage = () => {
     <div>
       <header className="header">
         <div id="logo">
-          <img src="" alt="Logo" />
+        <h1>Edurl</h1>
         </div>
         <ul className="navbar">
           <li>Home</li>
@@ -34,7 +34,7 @@ const Homepage = () => {
               <li>Connectivity Tools</li>
             </ul>
           </li>
-          <li>About Us</li>
+          <li> <Link to="/about">About</Link></li>
 
           <li>
             {" "}
@@ -259,6 +259,64 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div className="main-container">
+      <div className="shadow-container">
+        <div className="image-container2">
+          {/* Add your image here */}
+          <img src="/images/images (7).jpeg.jpg" alt="Example" />
+        </div>
+        <div className="content-container2">
+          {/* Add your content here */}
+          <h2>Resource Management</h2>
+          <p>Our resource management tools help schools efficiently allocate and utilize educational materials, such as textbooks, learning kits, and technology. By providing training and support, we empower educators to manage these resources effectively, fostering an environment conducive to learning.</p>
+        </div>
+      </div>
+    </div>
+
+      <footer className="footer">
+      <div className="footer-container">
+        {/* Company Information */}
+        <div className="footer-section">
+          <h3>About Edurl</h3>
+          <p>
+          "Empowering rural communities with advanced educational tools, our platform bridges the gap between remote areas and quality learning. Join us in transforming education through virtual classrooms, resource management, and enhanced connectivity solutions."
+          </p>
+        </div>
+
+        {/* Quick Links */}
+        <div className="footer-section">
+          <h3>Quick Links</h3>
+          <ul className="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        {/* Contact Information */}
+        <div className="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: </p>
+          <p>Phone: +91-XXXXXXX</p>
+          <p>Address: 123, Business Park, New Delhi, India</p>
+        </div>
+
+        {/* Social Media Links */}
+        <div className="footer-section">
+          <h3>Follow Us</h3>
+          <div className="social-icons">
+            <a href="https://facebook.com"><img src="/images/facebook-icon.png" alt="Facebook" /></a>
+            
+            <a href="https://linkedin.com"><img src="/images/linkedin-icon.png" alt="LinkedIn" /></a>
+            <a href="https://instagram.com"><img src="/images/instagram-icon.png" alt="Instagram" /></a>
+          </div>
+        </div>
+      </div>
+
+    
+    </footer>
     </div>
   );
 };
