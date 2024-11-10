@@ -1,48 +1,13 @@
 // Header.js
 import React from "react";
-import { Link } from "react-router-dom";
-import "./homepage.css"; // Make sure this path is correct
 
+import "./homepage.css"; // Make sure this path is correct
+import Header from "./Header";
+import Footer from "./Footer";
 const Homepage = () => {
   return (
     <div>
-      <header className="header">
-        <div id="logo">
-        <h1>Edurl</h1>
-        </div>
-        <ul className="navbar">
-          <li>Home</li>
-          <li className="dropdown">
-            <a href="/services">
-              Category <span className="arrow"></span>
-            </a>
-            <ul className="dropdown-menu">
-              <li>Virtual Classrooms</li>
-              <li>Resource Management</li>
-              <li>E-learning Content</li>
-              <li>Connectivity Tools</li>
-            </ul>
-          </li>
-          <li className="dropdown">
-            <a href="/services">
-              Courses <span className="arrow"></span>
-            </a>
-            <ul className="dropdown-menu">
-              <li>Virtual Classrooms</li>
-              <li>Resource Management</li>
-              <li>E-learning Content</li>
-              <li>Connectivity Tools</li>
-            </ul>
-          </li>
-          <li> <Link to="/about">About</Link></li>
-
-          <li>
-            {" "}
-            <Link to="/login">Login/Signup</Link>
-          </li>
-          <li>Register</li>
-        </ul>
-      </header>
+     <Header/>
       <div id="video1">
         <p id="solu">
           SOLUTION FOR <br />
@@ -59,7 +24,7 @@ const Homepage = () => {
         </p>
 
         <div id="image">
-          <img src="/images/logo-tc-artical.svg" />
+          <img src="/images/logo-tc-artical (1).svg" />
         </div>
       </div>
 
@@ -77,7 +42,7 @@ const Homepage = () => {
         <div className="image-row">
           <div className="image-container">
             <img
-              src="/images/international-day-education-cartoon-style.jpg"
+              src="/images/education-background-with-book-pencil_23-2147491204.jpg"
               alt="Image 1"
               className="image"
             />
@@ -94,7 +59,7 @@ const Homepage = () => {
           </div>
           <div className="image-container">
             <img
-              src="/images/front-view-stacked-book-with-academic-cap-glasses.jpg"
+              src="/images/front-view-stacked-books-graduation-cap-ladders-education-day_23-2149241014.avif"
               alt="Image 2"
               className="image"
             />
@@ -108,7 +73,7 @@ const Homepage = () => {
           </div>
           <div className="image-container">
             <img
-              src="/images/top-view-school-supplies-tree-drawn-blackboard-education-day.jpg"
+              src="/images/top-view-school-supplies-tree-drawn-blackboard-education-day_23-2149241049.jpg"
               alt="Image 3"
               className="image"
             />
@@ -133,7 +98,7 @@ const Homepage = () => {
           the unique challenges of rural communities."
         </p>
         <div id="pic1">
-          <img src="/images/1200-630.png" />
+          <img src="/images/istockphoto-808845348-1024x1024.jpg" />
         </div>
       </div>
       <p className="hover-sentence">
@@ -165,7 +130,7 @@ const Homepage = () => {
         <h2>"Bridging the Gap, Building Bright Futures"</h2>
       </div>
       <div className="head1">
-        <img src="/images/iStock-1296463018.jpg" alt="3D Girl" />
+        <img src="/images/istockphoto-2163764887-612x612.jpg" alt="3D Girl" />
       </div>
       {/* Our Services Section */}
       <div id="ourservices-text">
@@ -181,7 +146,7 @@ const Homepage = () => {
               experienced educators.
             </p>
             <img
-              src="/images/ai-generated-8309926_640.jpg"
+              src="/images/81951.jpg"
               className="bottom-image"
             />
           </div>
@@ -192,7 +157,7 @@ const Homepage = () => {
               tutorials, quizzes, and video content.
             </p>
             <img
-              src="/images/e-learning-icons-flat_1284-3950.jpg"
+              src="/images/AF_3125X1586_1-min_2_2.png"
               alt="SEO"
               className="bottom-image"
             />
@@ -204,7 +169,7 @@ const Homepage = () => {
               tracking, and class schedules for schools and educators.
             </p>
             <img
-              src="/images/images (4).jpeg.jpg"
+              src="/images/AF_Jan_3125X1586_1.png"
               alt="PPC"
               className="bottom-image"
             />
@@ -216,7 +181,7 @@ const Homepage = () => {
               ensuring uninterrupted learning.
             </p>
             <img
-              src="/images/images.jpeg.jpg"
+              src="/images/AF_web.png"
               alt="Social Media Marketing"
               className="bottom-image"
             />
@@ -228,7 +193,7 @@ const Homepage = () => {
               areas.
             </p>
             <img
-              src="/images/images (2).jpeg.jpg"
+              src="/images/best-parent-school.png"
               alt="Website Development"
               className="bottom-image"
             />
@@ -240,7 +205,7 @@ const Homepage = () => {
               receive support, resources, and training.
             </p>
             <img
-              src="/images/images (6).jpeg.jpg"
+              src="/images/integrated.png"
               alt="Mobile App Development"
               className="bottom-image"
             />
@@ -252,7 +217,7 @@ const Homepage = () => {
               educational support, mentorship, or technology assistance.
             </p>
             <img
-              src="/images/images (8).jpeg.jpg"
+              src="/images/oct_blog_post2.png"
               alt="Testing"
               className="bottom-image"
             />
@@ -263,7 +228,7 @@ const Homepage = () => {
       <div className="shadow-container">
         <div className="image-container2">
           {/* Add your image here */}
-          <img src="/images/images (7).jpeg.jpg" alt="Example" />
+          <img src="/images/happy-teachers-day-design-stack-books-with-glasses-magnifier-blackboard-background_1325059-4021.jpg" alt="Example" />
         </div>
         <div className="content-container2">
           {/* Add your content here */}
@@ -273,50 +238,7 @@ const Homepage = () => {
       </div>
     </div>
 
-      <footer className="footer">
-      <div className="footer-container">
-        {/* Company Information */}
-        <div className="footer-section">
-          <h3>About Edurl</h3>
-          <p>
-          "Empowering rural communities with advanced educational tools, our platform bridges the gap between remote areas and quality learning. Join us in transforming education through virtual classrooms, resource management, and enhanced connectivity solutions."
-          </p>
-        </div>
-
-        {/* Quick Links */}
-        <div className="footer-section">
-          <h3>Quick Links</h3>
-          <ul className="footer-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/contact">Contact Us</a></li>
-          </ul>
-        </div>
-
-        {/* Contact Information */}
-        <div className="footer-section">
-          <h3>Contact Us</h3>
-          <p>Email: </p>
-          <p>Phone: +91-XXXXXXX</p>
-          <p>Address: 123, Business Park, New Delhi, India</p>
-        </div>
-
-        {/* Social Media Links */}
-        <div className="footer-section">
-          <h3>Follow Us</h3>
-          <div className="social-icons">
-            <a href="https://facebook.com"><img src="/images/facebook-icon.png" alt="Facebook" /></a>
-            
-            <a href="https://linkedin.com"><img src="/images/linkedin-icon.png" alt="LinkedIn" /></a>
-            <a href="https://instagram.com"><img src="/images/instagram-icon.png" alt="Instagram" /></a>
-          </div>
-        </div>
-      </div>
-
-    
-    </footer>
+     <Footer/>
     </div>
   );
 };

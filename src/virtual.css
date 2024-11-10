@@ -1,0 +1,77 @@
+.meeting-schedule {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 60%;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+  }
+  
+  .subtext {
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .meeting-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .meeting-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6a9d6b;
+    border-radius: 25px;
+    width: 70%;
+    padding: 10px 20px;
+  }
+  
+  .meeting-link {
+    color: white;
+    font-size: 16px;
+    flex: 1;
+    text-align: left;
+  }
+  
+  .join-button {
+    background-color: #112f57;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .join-button:hover {
+    background-color: #155ab1;
+  }
+  
+  .footer-text {
+    color: gray;
+    margin-top: 30px;
+  }
+  
